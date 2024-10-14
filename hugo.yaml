@@ -1,0 +1,27 @@
+baseURL: ""
+languageCode: en-us
+title: Dylan Dehnert
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: resume
+      name: Resume
+      url: /resume/
+      weight: 30
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  ShareButtons: ["linkedin", "github"]
