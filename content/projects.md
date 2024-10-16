@@ -51,7 +51,7 @@ Here is a collection of the projects and cool things I have worked on. Ranging f
   }
 
   .project-card h3 {
-    margin-top: 6px;
+    margin-top: 8px;
     font-size: 16px;
   }
 
@@ -63,12 +63,12 @@ Here is a collection of the projects and cool things I have worked on. Ranging f
 
   @media (max-width: 708px) {
     .project-card h3 {
-      font-size: 15px;
-      margin-top: 7px;
+      font-size: 14px;
+      margin-top: 9px;
     }
 
     .project-card p {
-      font-size: 11px;
+      font-size: 10px;
       margin-top: -13px;
     }
   }
@@ -91,6 +91,12 @@ Here is a collection of the projects and cool things I have worked on. Ranging f
     <img src="/img/poker-bot-pic.png" alt="PokerBot Image">
     <h3>PokerBot</h3>
     <p>This AI PokerBot, named "Jester," plays heads-up poker against a user player, utilizing an unexploitable GTO-style strategy. Test your poker skills and see if you can beat Jester!</p>
+  </a>
+
+  <a href="https://github.com/DylanD75/RocketRob" class="project-card">
+    <img src="/img/rocketrob-pic.png" alt="Lotka Volterra Image">
+    <h3>RocketRob</h3>
+    <p>RocketRob is a Unity game on the IOS App Store from Aphy Games. The game is a pixelated 2D platformer that depicts a character named Rob launching as high as possible with his rocket launcher!</p>
   </a>
 
   <a href="https://github.com/DylanD75/lotka-volterra-simulation" class="project-card">
