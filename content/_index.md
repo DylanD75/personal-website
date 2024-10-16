@@ -42,7 +42,6 @@ draft = false
     justify-content: center;
     gap: 15px;
     margin-top: 10px;
-    margin-left: -9px;
   }
 </style>
 
@@ -81,6 +80,7 @@ draft = false
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-left: 10px;
   }
 
   .button {
@@ -88,7 +88,8 @@ draft = false
     padding: 8px 16px;
     text-decoration: none;
     border-radius: 8px;
-    transition: background-color 0.3s;
+    border: 1px solid currentColor;
+    box-shadow: none !important;
   }
 
   .button:hover {
